@@ -1,0 +1,173 @@
+/* Universal Styling */
+body {
+    background-color: #1f3245;
+    margin: 0;
+}
+h1, h2, h3, h4, p, a, span {
+    color: #F8F8FF;
+    font-family: Roboto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 0;
+    background-color: #1f3245;
+}
+h4 {
+    margin: 10px;
+}
+h3 {
+    padding-left: 15px;
+    background-color: #1f3245;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+    /* Nav Section */
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.navlist {
+    list-style: none;
+}
+.navlist a {
+    font-size: 1.5rem;
+}
+.navlist a:hover {
+    text-decoration: none;
+}
+
+/* Splash Banner */
+.banner_container {
+    padding-top: 30px;
+    height: 350px;
+    width: 100%;
+}
+.splash-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+    /* Mission & About Statement */
+.banner_content {
+    max-height: 100px;
+    width: 100%;
+    background-color:#1f3245;
+    position: relative;
+    display: inline-block;
+    bottom: 70%;
+}
+.statement {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+/* Products/Services */
+.products_container {
+    height: 300px;
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.product_display {
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+.product_image {
+    display: flex;
+}
+.product_image img {
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+    justify-content: center;
+}
+.product_image span {
+    align-content: center;
+    margin: 0;
+}
+
+.product_image .special {
+    width: 170px;
+}
+
+.product_image .alter {
+    padding-left: 10px;
+}
+
+/* Employees Section */
+.employee_container {
+    height: 500px;
+    width: 100%;
+}
+
+    /* Employee Content Pane */
+.employee_pane {
+    height: 450px;
+    width: 50%;
+    position: relative;
+    display: inline-block;
+    left: 25%;
+    bottom: 99%;
+    padding-top: 30px;
+    z-index: 5;
+    background-color: #1f3245;
+}
+
+    /* Employee Image */
+.employee_image img {
+    max-height: 400px;
+    max-width: 400px;
+    object-fit: cover;
+    position: relative;
+    left: 10%;
+}
+    /* Employee Description */
+.employee_description {
+    width: 50%;
+    height: 150px;
+    text-align: left;
+    padding-left: 15px;
+    position: relative;
+    left: 45%;
+    bottom: 50%;
+}
+
+/* Employee Splash Image */
+.emp_splash{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Image Credits/Artist Credits */
+.credits li {
+    list-style: none;
+    padding-left: 40px;
+    font-family: Roboto;
+    line-height: 2.5em;
+    color:#F8F8FF;
+}
+.credits a:hover {
+    text-decoration: none;
+}
+
+
